@@ -28,14 +28,9 @@ SECRET_KEY = 'django-insecure-)d)hv@lqr1bw0r-q_)yt0uhts%=7e#zarka55e4*ijz2t3_1y2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hqcashforcars.com','www.hqcashforcars.com','https://www.hqcashforcars.com']
+ALLOWED_HOSTS = ['156.67.220.241']
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'cashforcars502@gmail.com'
-EMAIL_HOST_PASSWORD = 'yjhzwlzkhnzreufn'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -107,7 +102,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 
 # Internationalization
