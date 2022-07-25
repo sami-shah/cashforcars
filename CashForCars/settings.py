@@ -30,7 +30,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['hqcashforcars.com','www.hqcashforcars.com','https://www.hqcashforcars.com']
 
-
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'cashforcars502@gmail.com'
+EMAIL_HOST_PASSWORD = 'yjhzwlzkhnzreufn'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -102,6 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
 
 
 # Internationalization
