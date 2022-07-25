@@ -11,4 +11,5 @@ urlpatterns = [
     path('cashforcars/', views.cashforcars, name='cashforcars'),
     path('contact/', views.contact, name='contact'),
     path('getquote/', views.getquote, name='getquote'),
+    
 ]
